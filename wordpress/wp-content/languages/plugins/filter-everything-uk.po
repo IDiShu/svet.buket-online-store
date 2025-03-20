@@ -1,0 +1,2184 @@
+# Translation of Plugins - Filter Everything&nbsp;— Product Filter &amp; WordPress Filter - Stable (latest release) in Ukrainian
+# This file is distributed under the same license as the Plugins - Filter Everything&nbsp;— Product Filter &amp; WordPress Filter - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2025-01-23 10:36:17+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n % 10 == 1 && n % 100 != 11) ? 0 : ((n % 10 >= 2 && n % 10 <= 4 && (n % 100 < 12 || n % 100 > 14)) ? 1 : 2);\n"
+"X-Generator: GlotPress/4.0.1\n"
+"Language: uk_UA\n"
+"Project-Id-Version: Plugins - Filter Everything&nbsp;— Product Filter &amp; WordPress Filter - Stable (latest release)\n"
+
+#: src/Settings/Tabs/ExperimentalTab.php:132
+msgid "Make swatches rounded"
+msgstr "Зробіть зразки округлими"
+
+#: src/Settings/Tabs/ExperimentalTab.php:130
+msgid "Rounded swatches"
+msgstr "Закруглені зразки"
+
+#: src/Admin/Widgets/FiltersWidget.php:300
+msgid "First, select another filter"
+msgstr "Спочатку виберіть інший фільтр"
+
+#: src/Plugin.php:1385
+msgid "For example, \"Price from <span class=\"wpc-variable-inserter\" data-field=\"%s\" title=\"Click to insert the variable\">{value}</span> $\" will be displayed as \"Price from 150 $\""
+msgstr "Наприклад, \"Ціна від <span class=\"wpc-variable-inserter\" data-field=\"%s\" title=\"Натисніть, щоб вставити змінну\">{value}</span> $\" буде відображатися як \"Ціна від 150 $\""
+
+#: src/Admin/FilterFields.php:301
+msgid "Contains the IDs of ACF fields that are related to the Custom Field"
+msgstr "Містить ID полів ACF пов'язаних з Мета полем даного фільтра"
+
+#: src/Admin/FilterFields.php:298
+msgid "ACF Fields"
+msgstr "Поля ACF"
+
+#: src/Admin/FilterFields.php:271
+msgid "e.g. To {value}"
+msgstr "напр. До {value}"
+
+#: src/Admin/FilterFields.php:262
+msgid "e.g. From {value}"
+msgstr "напр. Від {value}"
+
+#: src/Admin/FilterFields.php:259
+msgid "Labels for Chips"
+msgstr "Назви для Чіпсів"
+
+#: src/Admin/FilterFields.php:117
+msgid "Label for the default dropdown option"
+msgstr "Назва дефолтної опції у випадаючому списку"
+
+#: src/Admin/FilterFields.php:116
+msgid "e.g. - Select color -"
+msgstr "напр. - Виберіть колір -"
+
+#: src/Admin/FilterFields.php:113
+msgid "Dropdown Label"
+msgstr "Назва списку"
+
+#: src/wpc-api.php:107
+msgid "Please, do not fire this function, until the \"pre_get_posts\" hook has been called"
+msgstr "Будь ласка, не запускайте цю функцію, поки не буде викликано хук «pre_get_posts»"
+
+#: src/Settings/Tabs/ExperimentalTab.php:104
+msgid "It also hides variable products if their variations are out of stock. Please do not use it together with the Filter by the Stock status!"
+msgstr "Приховує також варіативні продукти, якщо їхні варіації не в наявності. Будь ласка, не використовуйте одночасно з фільтром по наявності!"
+
+#: src/Settings/Tabs/ExperimentalTab.php:103
+msgid "Hide out of stock items from filtering results"
+msgstr "Приховати товари не в наявності з результатів фільтрування"
+
+#: src/Settings/Tabs/ExperimentalTab.php:101
+msgid "Out of stock visibility"
+msgstr "Видимість наявності запасів"
+
+#: src/Plugin.php:1250
+msgctxt "Date Time Picker pmTextShort"
+msgid "P"
+msgstr "P"
+
+#: src/Plugin.php:1249
+msgctxt "Date Time Picker pmText"
+msgid "PM"
+msgstr "PM"
+
+#: src/Plugin.php:1246
+msgctxt "Date Time Picker amTextShort"
+msgid "A"
+msgstr "А"
+
+#: src/Plugin.php:1245
+msgctxt "Date Time Picker amText"
+msgid "AM"
+msgstr "АМ"
+
+#: src/Plugin.php:1243
+msgctxt "Date Time Picker selectText"
+msgid "Select"
+msgstr "Виберіть"
+
+#: src/Plugin.php:1242
+msgctxt "Date Time Picker timezoneText"
+msgid "Time Zone"
+msgstr "Часовий пояс"
+
+#: src/Plugin.php:1241
+msgctxt "Date Time Picker secondText"
+msgid "Second"
+msgstr "Секунда"
+
+#: src/Plugin.php:1240
+msgctxt "Date Time Picker minuteText"
+msgid "Minute"
+msgstr "Хвилина"
+
+#: src/Plugin.php:1239
+msgctxt "Date Time Picker hourText"
+msgid "Hour"
+msgstr "Година"
+
+#: src/Plugin.php:1238
+msgctxt "Date Time Picker timeText"
+msgid "Time"
+msgstr "Час"
+
+#: src/Plugin.php:1237
+msgctxt "Date Time Picker timeOnlyTitle"
+msgid "Choose Time"
+msgstr "Оберіть час"
+
+#: src/Plugin.php:1236
+msgctxt "Date Picker weekHeader"
+msgid "Wk"
+msgstr "Нд"
+
+#: src/Plugin.php:1235
+msgctxt "Date Picker prevText"
+msgid "Prev"
+msgstr "Попередня"
+
+#: src/Plugin.php:1234
+msgctxt "Date Picker nextText"
+msgid "Next"
+msgstr "Наступна"
+
+#: src/Plugin.php:1233
+msgctxt "Date Picker currentText"
+msgid "Today"
+msgstr "Сьогодні"
+
+#: src/Plugin.php:1232
+msgctxt "Date Picker closeText"
+msgid "Filter"
+msgstr "Фільтрувати"
+
+#: src/Entities/PostDateEntity.php:366 views/frontend/date.php:83
+msgid "Before"
+msgstr "До"
+
+#: src/Entities/PostDateEntity.php:364 views/frontend/date.php:79
+msgid "After"
+msgstr "Після"
+
+#: src/Entities/EntityManager.php:189
+msgid "Post Date"
+msgstr "Дата публікації"
+
+#: src/Admin/FilterFields.php:1758
+msgid "Error: Invalid date or time format."
+msgstr "Помилка: некоректний формат дати або часу."
+
+#: src/Admin/FilterFields.php:1757
+msgid "Error: Invalid time format."
+msgstr "Помилка: некоректний формат часу."
+
+#: src/Admin/FilterFields.php:1756
+msgid "Error: Invalid date format."
+msgstr "Помилка: некоректний формат дати."
+
+#: src/Admin/FilterFields.php:1741
+msgid "Error: invalid Date Type parameter."
+msgstr "Помилка: некоректний тип дати."
+
+#: src/Admin/FilterFields.php:359
+msgid "Custom:"
+msgstr "Свій:"
+
+#: src/Admin/FilterFields.php:349 src/Admin/FilterFields.php:353
+#: src/Admin/FilterFields.php:1341 src/Admin/FilterFields.php:1396
+#: src/wpc-helpers.php:1636
+msgid "g:i a"
+msgstr "H:i"
+
+#: src/Admin/FilterFields.php:338 src/Admin/FilterFields.php:343
+#: src/Admin/FilterFields.php:1338 src/Admin/FilterFields.php:1395
+#: src/wpc-helpers.php:1633
+msgid "F j, Y g:i a"
+msgstr "F j, Y g:i a"
+
+#: src/Admin/FilterFields.php:316
+msgid "Date range"
+msgstr "Діапазон дат"
+
+#: src/Admin/FilterFields.php:315
+msgid "Numeric range"
+msgstr "Числовий діапазон"
+
+#: src/Admin/FilterFields.php:139
+msgid "More PHP date formats can be found on <a href=\"%1$s\" target=\"_blank\">this page</a>."
+msgstr "Більше PHP форматів дати можна знайти на <a href=\"%1$s\" target=\"_blank\">цій сторінці</a>."
+
+#: src/Admin/FilterFields.php:137
+msgid "How the date will be displayed in the Filters widget"
+msgstr "Як буде відображатися дата у віджеті фільтрів"
+
+#: src/Admin/FilterFields.php:136 src/Admin/FilterFields.php:326
+#: src/Admin/FilterFields.php:331 src/Admin/FilterFields.php:1333
+#: src/Admin/FilterFields.php:1390 src/Admin/FilterFields.php:1394
+#: src/wpc-helpers.php:1626 src/wpc-helpers.php:1630
+msgid "F j, Y"
+msgstr "F j, Y"
+
+#: src/Admin/FilterFields.php:133
+msgid "Date Format"
+msgstr "Формат дати"
+
+#: src/Admin/FilterFields.php:126
+msgid "Time"
+msgstr "Час"
+
+#: src/Admin/FilterFields.php:125
+msgid "Date Time"
+msgstr "Дата і час"
+
+#: src/Admin/FilterFields.php:121
+msgid "Date Type"
+msgstr "Тип дати"
+
+#: src/PostTypes.php:30
+msgid "No Filter Sets were found in Trash"
+msgstr "Не знайдено жодного набору фільтрів у кошику"
+
+#: src/Settings/Tabs/PermalinksTab.php:308
+msgid "Edit, drag filter prefixes, and arrange them in the order you need.<br />This order determines the order of the filters in the URL."
+msgstr "Редагуйте, перетягуйте та змінюйте порядок префіксів.<br />Даний порядок відповідає порядку їх розміщення в URL."
+
+#: src/Admin/Shortcodes.php:119
+msgid "Use «%d» as the id for the widget with the title «%s»"
+msgstr "Використовуйте «%d» в якості id для віджета із заголовком «%s»"
+
+#: src/Admin/FilterSet.php:181
+msgid "The Filter set has not been updated."
+msgstr "Набір фільтрів не оновлено."
+
+#: src/Admin/FilterSet.php:179
+msgid "The Filter set draft has been updated."
+msgstr "Чернетку набору фільтрів оновлено."
+
+#: src/Admin/FilterSet.php:178
+msgid "The Filter set has been scheduled for"
+msgstr "Набір фільтрів заплановано"
+
+#: src/Admin/FilterSet.php:177
+msgid "The Filter set has been submitted."
+msgstr "Набір фільтрів відправлений."
+
+#: src/Admin/FilterSet.php:176
+msgid "The Filter set has been saved."
+msgstr "Набір фільтрів збережено."
+
+#: src/Admin/FilterSet.php:175
+msgid "The Filter set has been created."
+msgstr "Набір фільтрів створено."
+
+#: src/Admin/FilterSet.php:170 src/Admin/FilterSet.php:173
+msgid "The Filter set has been updated."
+msgstr "Набір фільтрів оновлено."
+
+#. translators: %s: Number of posts.
+#: src/Admin/FilterSet.php:158
+msgid "%s filter set has been restored from the Trash."
+msgid_plural "%s filter sets have been restored from the Trash."
+msgstr[0] "%s набір фільтрів відновлений з кошика."
+msgstr[1] "%s набори фільтрів відновлено з кошика."
+msgstr[2] "%s наборів фільтрів відновлено з кошика."
+
+#. translators: %s: Number of posts.
+#: src/Admin/FilterSet.php:156
+msgid "%s filter set has been moved to the Trash."
+msgid_plural "%s filter sets have been moved to the Trash."
+msgstr[0] "%s набір фільтрів переміщений до кошика."
+msgstr[1] "%s набори фільтрів переміщені до кошика."
+msgstr[2] "%s наборів фільтрів переміщено до кошика."
+
+#. translators: %s: Number of posts.
+#: src/Admin/FilterSet.php:154
+msgid "%s filter set has been permanently deleted."
+msgid_plural "%s filter sets have been permanently deleted."
+msgstr[0] "%s набір фільтрів видалено назавжди."
+msgstr[1] "%s набори фільтрів видалено назавжди."
+msgstr[2] "%s наборів фільтрів видалено назавжди."
+
+#. translators: %s: Number of posts.
+#: src/Admin/FilterSet.php:152
+msgid "%s filter set has not been updated. Someone is editing it."
+msgid_plural "%s filter sets have not been updated. Someone is editing them."
+msgstr[0] "%s набір фільтрів не оновлений, хтось редагує його."
+msgstr[1] "%s набори фільтрів не оновлено, хтось редагує їх."
+msgstr[2] "%s наборів фільтрів не оновлено, хтось редагує їх."
+
+#: src/Admin/FilterSet.php:150
+msgid "1 The filter set has not been updated. Someone is editing it."
+msgstr "1 набір фільтрів не оновлено, хтось редагує його."
+
+#. translators: %s: Number of posts.
+#: src/Admin/FilterSet.php:149
+msgid "%s filter set has been updated."
+msgid_plural "%s filter sets have been updated."
+msgstr[0] "%s набір фільтрів оновлений."
+msgstr[1] "%s набори фільтрів оновлено."
+msgstr[2] "%s наборів фільтрів оновлено."
+
+#: src/Admin/FilterFields.php:1743
+msgid "Error: invalid the Sort Terms by parameter"
+msgstr "Помилка: некоректне значення поля «Сортувати терми за»"
+
+#: src/Admin/AdminHooks.php:60
+msgid "It is fast, convenient, intuitive, and contains unique SEO features (in the PRO version)."
+msgstr "Він швидкий, інтуїтивно-зрозумілий а також підтримує унікальні можливості для SEO (у PRO версії)."
+
+#: views/admin/filters-set-advices.php:83
+msgid "<li><code>_wc_average_rating</code> - filter by Product Average Rating. Optionally use <a href=\"%s\" target=\"_blank\" class=\"wpc-external-link\">Product Visibility</a> taxonomy instead</li>"
+msgstr "<li><code>_wc_average_rating</code> - фільтр по середньому рейтингу товару. Також можна використовувати таксономію <a href=\"%s\" target=\"_blank\" class=\"wpc-external-link\">Видимість товару</a></li>"
+
+#: src/Plugin.php:244
+msgid "Every Posts list, like \"Popular products\" or \"Recent posts\" on a page, is related to some WP_Query. This field allows you to set desired Posts list by choosing its WP_Query.<br /><br />If the filtering process does not change the Posts you need, it means you selected the wrong WP_Query. Please, try to experiment with different ones until it starts to filter."
+msgstr "Кожен Список дописів на зразок «Популярні товари» чи «Останні публікації» пов'язаний з певним WP_Query. В цьому полі ви можете встановити потрібний Список дописів вибравши його WP_Query.<br /><br />Якщо фільтрування не змінює потрібні вам дописи, це означає, що ви вказали неправильний WP_Query. Будь ласка поекспериментуйте з різними, доки якийсь з них не почне фільтрувати."
+
+#: src/Admin/MetaBoxes.php:53
+msgid "How to?"
+msgstr "Як це працює?"
+
+#: src/Admin/FilterSet.php:321
+msgid "Note: if you modify the selected WP_Query on the page, please update this Filter Set"
+msgstr "Примітка: якщо ви зміните WP_Query на обраній сторінці, будь ласка оновіть цей набір фільтрів"
+
+#: src/Admin/FilterSet.php:91
+msgid "Show counters"
+msgstr "Показувати лічильники"
+
+#: src/Admin/FilterSet.php:71 src/Plugin.php:243
+msgid "Determines what exactly the Posts list (WP_Query) on a page should be filtered"
+msgstr "Визначає, який саме Список дописів (WP_Query) на сторінці буде фільтруватися"
+
+#: src/Settings/Tabs/AboutProTab.php:107
+msgid "Step-by-Step filtering"
+msgstr "Покрокова фільтрація"
+
+#: src/Settings/Tabs/AboutProTab.php:102
+msgid "«Auto-submission» and «Apply button» modes"
+msgstr "Режими «Автовідправка» та кнопка «Застосувати»"
+
+#: src/Settings/Tabs/AboutProTab.php:97
+msgid "Vertical and Horizontal layouts"
+msgstr "Вертикальний та Горизонтальний режими"
+
+#: src/Settings/Tabs/AboutProTab.php:92
+msgid "Search by keyword"
+msgstr "Текстовий пошук"
+
+#: src/Settings/Tabs/AboutProTab.php:87
+msgid "Color swatches and Brand logos"
+msgstr "Кольорові зразки та підтримка картинок (лого)"
+
+#: views/admin/filter-search-field.php:9 views/frontend/search.php:20
+msgid "Search ..."
+msgstr "Пошук ..."
+
+#: src/Plugin.php:1213
+msgid "It appears that this page does not contain a container with the specified «HTML id or class of the Posts Container». Try to specify the correct one in the Filter Set settings or the common plugin Settings."
+msgstr "Схоже, що на даній сторінці немає контейнера, який вказаний у «CSS id або class контейнеру з дописами». Будь ласка, вкажіть правильний у Наборі фільтрів або в загальних налаштуаннях плагіну."
+
+#: src/Plugin.php:326
+msgid "e.g. Search products, Search posts"
+msgstr "напр. Шукайте товари, Шукайте дописи"
+
+#: src/Plugin.php:322
+msgid "Search Field Placeholder"
+msgstr "Заповнювач поля"
+
+#: src/Plugin.php:316
+msgid "Specify if needed or leave empty"
+msgstr "Вкажіть, якщо потрібно, або залиште пустим"
+
+#: src/Plugin.php:311
+msgid "Search Field Title"
+msgstr "Назва поля пошуку"
+
+#: src/Plugin.php:295
+msgid "Allows you to search by text among filtered posts"
+msgstr "Дозволяє шукати серед відфільтрованих дописів"
+
+#: src/Chips.php:125
+msgid "search: %s"
+msgstr "пошук: %s"
+
+#: src/Admin/FilterFields.php:241
+msgid "Adds a search field that allows you to quickly find filter terms"
+msgstr "Додає швидкий пошук по термам фільтра"
+
+#: src/Admin/FilterFields.php:238
+msgid "Terms Search"
+msgstr "Пошук термів"
+
+#: src/wpc-helpers.php:919
+msgid "There are no filter terms yet"
+msgstr "Фільтр поки ще не має термів"
+
+#: src/Admin/Widgets/SortingWidget.php:215
+msgid "The Filter Everything Sorting widget only works on pages with filtering posts."
+msgstr "Віджет сортування Filter Everything працює лише на тих сторінках, де є дописи, які фільтруються."
+
+#: src/Admin/FilterFields.php:90
+msgid "Will appear in the Filters widget"
+msgstr "Буде відображатися у віджеті фільтрів"
+
+#: src/Admin/FilterFields.php:87
+msgid "Filter Title"
+msgstr "Назва фільтра"
+
+#: src/Settings/Tabs/HelpMeTab.php:46
+msgid "Hide this tab forever"
+msgstr "Сховати цю вкладку назавжди"
+
+#: src/Settings/Tabs/HelpMeTab.php:43
+msgid "I have an issue with the plugin"
+msgstr "Маю проблеми з плагіном"
+
+#: src/Settings/Tabs/HelpMeTab.php:42
+msgid "Sure, you deserve 5 stars"
+msgstr "Звісно, ти заслуговуєш 5 зірок"
+
+#: src/Settings/Tabs/HelpMeTab.php:40
+msgid "Thank you so much!"
+msgstr "Щиро дякую!"
+
+#: src/Settings/Tabs/HelpMeTab.php:39
+msgid "Please, help me make the plugin more popular - leave a good review for it."
+msgstr "Будь ласка, допоможіть зробити плагін більш популярним - залиште позитивний відгук про нього."
+
+#: src/Settings/Tabs/HelpMeTab.php:37
+msgid "It seems you like how Filter Everything does its job."
+msgstr "Схоже, що вам подобається, як Filter Everything робить свою роботу."
+
+#: src/Settings/Tabs/HelpMeTab.php:36
+msgid "I'm Andrii Stepasiuk, the author of this plugin."
+msgstr "Мене звуть Андрій Степасюк, я автор цього плагіну."
+
+#: src/Settings/Tabs/HelpMeTab.php:35
+msgid "Howdy, %s"
+msgstr "Привіт, %s"
+
+#: src/Admin/Widgets/FiltersWidget.php:563
+msgid "Columns"
+msgstr "Колонки"
+
+#: src/Admin/Widgets/FiltersWidget.php:561
+msgid "Horizontal layout"
+msgstr "Відображати горизонтально"
+
+#: src/Admin/AdminHooks.php:34 src/Settings/Tabs/HelpMeTab.php:54
+msgid "Need Your Help"
+msgstr "Потрібна Ваша Допомога"
+
+#: src/Swatches.php:197 src/Swatches.php:246
+msgid "The image will be shown in the filter term."
+msgstr "Картинка буде відображатися в термі фільтра."
+
+#: src/Swatches.php:195 src/Swatches.php:239 src/Swatches.php:243
+msgid "Remove image"
+msgstr "Видалити картинку"
+
+#: src/Swatches.php:194 src/Swatches.php:242
+msgid "Upload image"
+msgstr "Додати картинку"
+
+#: src/Swatches.php:193 src/Swatches.php:232
+msgid "Image"
+msgstr "Картинка"
+
+#: src/Swatches.php:185 src/Swatches.php:215
+msgid "The selected color will be shown in the filter term."
+msgstr "Вибраний колір буде відображатися в термі фільтра."
+
+#: src/Swatches.php:183 src/Swatches.php:212
+msgid "Color"
+msgstr "Колір"
+
+#: src/Settings/Tabs/ExperimentalTab.php:125
+msgid "Please specify taxonomies whose filters should display color swatches"
+msgstr "Будь ласка, виберіть таксономії, для яких фільтри будуть з кольоровими взірцями"
+
+#: src/Settings/Tabs/ExperimentalTab.php:121
+msgid "Taxonomies for Color swatches"
+msgstr "Таксономії для кольорових взірців"
+
+#: src/Settings/Tabs/ExperimentalTab.php:116
+msgid "Enable Color swatches"
+msgstr "Увімкнути кольорові взірці"
+
+#: src/Settings/Tabs/ExperimentalTab.php:114
+msgid "Color swatches for Filters"
+msgstr "Кольорові взірці для фільтрів"
+
+#: src/Settings/Tabs/ExperimentalTab.php:32
+msgid " (Elementor Library)"
+msgstr " (Бібліотека Elementor)"
+
+#: src/Plugin.php:1031
+msgid "Click to select taxonomies"
+msgstr "Клікніть для вибору таксономій"
+
+#: src/Admin/FilterFields.php:1770
+msgid "Error: you can not update settings because the Filter Everything Pro plugin is locked. Please, ask your site Superadmin to enter the plugin license key to unlock it."
+msgstr "Помилка: ви не можете оновити налаштування тому що плагін Filter Everything Pro заблокований. Будь ласка, попросіть Суперадміна вашого сайту ввести ліцензійний ключ плагіну, щоб зняти блокування."
+
+#: src/Admin/FilterFields.php:151
+msgid "Term names for filters with swatches or brand images may be hidden"
+msgstr "Назви термів у фільтрах з кольоровими взірцями чи брендами можна приховати"
+
+#: src/Admin/FilterFields.php:148
+msgid "Show Term names"
+msgstr "Показувати назви термів"
+
+#: src/wpc-helpers.php:941
+msgid "See less"
+msgstr "Показати менше"
+
+#: src/wpc-helpers.php:940
+msgid "See more"
+msgstr "Показати більше"
+
+#: src/Entities/EntityManager.php:191
+msgid "Taxonomy Numeric - Available in Pro"
+msgstr "Числова таксономія - Доступно в PRO"
+
+#: src/Entities/EntityManager.php:182
+msgid "Custom Field Numeric"
+msgstr "Мета поле, тип «Числа»‎"
+
+#: src/Admin/FilterSet.php:266
+msgid "There are no taxonomies related with the selected post type"
+msgstr "Немає таксономій, пов'язаних з обраним типом дописів"
+
+#: src/Admin/FilterFields.php:1748
+msgid "Error: only AND logic is supported for numeric filters."
+msgstr "Помилка: у числових фільтрах‎ дозволена тільки логіка «І»."
+
+#: src/Admin/FilterFields.php:1747
+msgid "Error: numeric filter can not be in the URL path."
+msgstr "Помилка: числовий фільтр не може бути в шляху URL."
+
+#: src/Admin/FilterFields.php:1739
+msgid "Error: invalid Taxonomy"
+msgstr "Помилка: недопустима таксономія"
+
+#: src/Admin/FilterFields.php:557 src/Admin/FilterSet.php:275
+msgid "Taxonomy with numeric values you need to filter by"
+msgstr "Таксономія з числовими значеннями, за якими ви хочете фільтрувати"
+
+#: src/Admin/FilterFields.php:556 src/Admin/FilterSet.php:274
+msgid "Taxonomy"
+msgstr "Таксономія"
+
+#: src/Admin/FilterFields.php:287
+msgid "Show a toggle link after %s terms"
+msgstr "Додає перемикач після %s термів"
+
+#: src/Admin/FilterFields.php:284
+msgid "More/Less"
+msgstr "Розгорнути/Згорнути"
+
+#: src/Admin/FilterFields.php:1761
+msgid "Error: you can not update settings because the Filter Everything Pro plugin is locked. Please, enter your <a href=\"%1$s\" target=\"_blank\">license key</a> to unlock it."
+msgstr "Помилка: ви не можете оновити налаштування тому що плагін Filter Everything Pro заблокований. Будь ласка, введіть ваш <a href=\"%1$s\" target=\"_blank\">ліцензійний ключ</a> щоб зняти блокування."
+
+#: src/Admin/Widgets/FiltersWidget.php:575
+msgid "Unlike most widgets, the Filters widget does not always show filters. It is rather a canvas where filters can be displayed if there is a Filter Set registered for the page. You can specify this page or pages in the \"Where to filter?\" field of a Filter Set."
+msgstr "Віджет фільтрів, на відміну від більшості віджетів, не завжди показує фільтри. Він швидше є основою, на якій фільтри можуть відображатися, якщо для сторінки існує зареєстрований Набір фільтрів. Ви можете вказати цю сторінку або сторінки в полі \"Де фільтрувати?\" Набору фільтрів."
+
+#: src/Admin/Widgets/FiltersWidget.php:575
+msgid "Note: filters will only show if there is Filter Set registered for a page(s)"
+msgstr "Примітка: фільтри будуть відображатися, якщо для сторінки існує зареєстрований Набір фільтрів."
+
+#: views/frontend/date.php:112 views/frontend/range.php:83
+msgid "There are no posts with such filtering criteria on this site."
+msgstr "На цьому сайті немає дописів з таким критерієм фільтрування."
+
+#: views/admin/filter-row.php:26
+msgid "This filter is inactive because it is not related to the selected post type."
+msgstr "Цей фільтр неактивний, тому що він не пов'язаний з обраним типом допису."
+
+#: src/Admin/Widgets/SortingWidget.php:15
+msgid "Displays a dropdown with sort options"
+msgstr "Відображає випадачий список з параметрами сортування"
+
+#: src/Admin/Widgets/FiltersWidget.php:18
+msgid "Displays filters"
+msgstr "Відображає фільтри"
+
+#: src/Admin/Widgets/ChipsWidget.php:15
+msgid "Displays selected terms"
+msgstr "Відображає вибрані терми"
+
+#: src/Admin/Shortcodes.php:125
+msgid "There are no Sorting widgets on this site yet. Please, create it first."
+msgstr "На цьому сайті ще немає жодного віджету сортування. Будь ласка спочатку створіть його."
+
+#: src/Admin/FilterFields.php:1738
+msgid "Error: you must enter Meta Key"
+msgstr "Помилка: ви повинні вказати мета-ключ"
+
+#: src/Admin/FilterFields.php:1719
+msgid "Error: invalid value of the Where to filter? field."
+msgstr "Помилка: некоректне значення поля «Де фільтрувати?»."
+
+#: src/Admin/FilterFields.php:291
+msgid "Show in Chips"
+msgstr "Показувати в Чіпсах"
+
+#: src/Admin/FilterFields.php:174
+msgid "The \"Default\" option means that terms will be sorted in the order as they were received from the Database<br />The \"Menu order\" option is available for WooCommerce attributes only."
+msgstr "Значення «По-замовчуванню» означає, що терми будуть відсортовані в тому ж порядку, в якому вони були отримані із Бази Даних<br />Значення «Вручну» доступне тільки для атрибутів WooCommerce."
+
+#: src/Plugin.php:338
+msgid "Enables filtering by clicking the Apply button"
+msgstr "Вмикає фільтрування по кліку на кнопку «Застосувати»"
+
+#: src/Admin/Widgets/FiltersWidget.php:298
+msgid "Select %s first"
+msgstr "Спочатку оберіть %s"
+
+#: src/Admin/FilterSet.php:262
+msgid "Select terms and"
+msgstr "Вибрати терми і"
+
+#: src/Admin/FilterSet.php:38 src/Admin/FilterSet.php:59 src/Plugin.php:230
+msgid "Specify page(s) where the Posts list should be filtered is located"
+msgstr "Оберіть сторінку(и) де знаходиться Список дописів, які потрібно фільтрувати"
+
+#: src/Admin/FilterFields.php:1745
+msgid "Error: invalid include checkbox value"
+msgstr "Помилка: некоректне значення поля «вилучити»"
+
+#: src/Admin/FilterFields.php:408 src/Admin/FilterSet.php:265
+msgid "— Select Filter —"
+msgstr "— Оберіть Фільтр —"
+
+#: src/Admin/FilterFields.php:255
+msgid "Do not show this Filter until a parent is selected. Useful for step-by-step filtering"
+msgstr "Не показувати цей фільтр доки не буде вибраний батьківський. Корисно для покрокового фільтрування"
+
+#: src/Admin/FilterFields.php:252
+msgid "Hide until the Parent selected"
+msgstr "Приховувати, доки не обрано батьківський"
+
+#: src/Admin/FilterFields.php:248
+msgid "If specified, current Filter terms become available only after the parent Filter selected"
+msgstr "Якщо вибраний, то терми даного фільтра стануть доступні лише після вибору батьківського"
+
+#: src/Admin/FilterFields.php:247 src/Admin/FilterFields.php:410
+#: src/Admin/FilterSet.php:264
+msgid "Please, add filters first"
+msgstr "Будь ласка, створіть хоча б ще один фільтр"
+
+#: src/Admin/FilterFields.php:245
+msgid "Parent Filter"
+msgstr "Батьківський фільтр"
+
+#: src/Admin/FilterFields.php:200
+msgid "Include selected terms only"
+msgstr "Включити тільки вибрані терми"
+
+#: src/Admin/FilterFields.php:198
+msgid "include"
+msgstr "залучити"
+
+#: src/Admin/FilterFields.php:198
+msgid "exclude"
+msgstr "вилучити"
+
+#: src/Admin/FilterFields.php:187
+msgid "Include/Exclude Terms"
+msgstr "Залучити/Вилучити терми"
+
+#: src/Plugin.php:368 views/admin/filter-apply-button.php:10
+#: views/frontend/apply-button.php:22
+msgid "Reset"
+msgstr "Скинути"
+
+#: src/Plugin.php:364
+msgid "Reset Button label"
+msgstr "Назва кнопки «Скинути»"
+
+#: src/Plugin.php:358 views/admin/filter-apply-button.php:9
+#: views/frontend/apply-button.php:18
+msgid "Apply"
+msgstr "Застосувати"
+
+#: src/Plugin.php:354
+msgid "Apply Button label"
+msgstr "Назва кнопки"
+
+#: src/Plugin.php:333
+msgid "«Apply Button» mode"
+msgstr "Кнопка «Застосувати»"
+
+#: src/Admin/FilterSet.php:328
+msgid "Apply filtering if the page is:"
+msgstr "Фільтрувати, якщо це сторінка:"
+
+#: src/Admin/FilterSet.php:65 src/Plugin.php:236
+msgid "And what to filter?"
+msgstr "І що саме фільтрувати?"
+
+#: src/Admin/FilterSet.php:33 src/Plugin.php:223
+msgid "Where to filter?"
+msgstr "Де фільтрувати?"
+
+#: src/Admin/FilterFields.php:1723
+msgid "Error: invalid «Apply Button» mode field."
+msgstr "Помилка: некоректне значення поля кнопки «Застосувати»."
+
+#: src/wpc-helpers.php:926
+msgid "N/A"
+msgstr "н/д"
+
+#: src/wpc-helpers.php:959 views/frontend/search.php:40
+msgid "Clear search"
+msgstr "Очистити"
+
+#: views/admin/filters-set-advices.php:78
+msgid "by product Width"
+msgstr "по ширині товару"
+
+#: views/admin/filters-set-advices.php:76
+msgid "by Product Virtual status (Custom Field)"
+msgstr "по статусу Віртуальний у товару (Мета поле)"
+
+#: views/admin/filters-set-advices.php:74
+msgid "by Sold Individually status (Custom Field)"
+msgstr "по статусу Продавати індивідуально (Мета поле)"
+
+#: views/admin/filters-set-advices.php:73
+msgid "by Downloadable Status (Custom Field)"
+msgstr "по статусу завантажуваності (Мета поле)"
+
+#: views/admin/filters-set-advices.php:72
+msgid "by Backorders Status (Custom Field)"
+msgstr "по значенню опції передзамовлень (Мета поле)"
+
+#: views/admin/filters-set-advices.php:69
+msgid "filter by Product Stock status (Custom Field)"
+msgstr "фільтр по наявності товару (Мета поле)"
+
+#: views/admin/filters-set-advices.php:68
+msgid "filter by Product price (Custom Field Numeric)"
+msgstr "фільтр по ціні товару (Мета поле, тип «Числа»‎)"
+
+#: src/wpc-default-hooks.php:69
+msgid "Out of stock"
+msgstr "Закінчилися"
+
+#: src/wpc-default-hooks.php:65
+msgid "On backorder"
+msgstr "Доступні по замовленню"
+
+#: src/wpc-default-hooks.php:61
+msgid "In stock"
+msgstr "В наявності"
+
+#: src/wpc-default-hooks.php:49
+msgid "No"
+msgstr "Ні"
+
+#: src/wpc-default-hooks.php:47
+msgid "Yes"
+msgstr "Так"
+
+#: src/Sorting.php:41
+msgctxt "sorting"
+msgid "Meta key numeric"
+msgstr "Ключем числового мета поля"
+
+#: src/Sorting.php:40
+msgctxt "sorting"
+msgid "Meta key"
+msgstr "Ключем мета поля"
+
+#: src/Sorting.php:35
+msgctxt "sorting"
+msgid "Product reviews number"
+msgstr "Кількістю відгуків про товар"
+
+#: src/Sorting.php:34
+msgctxt "sorting"
+msgid "Product rating"
+msgstr "Рейтингом товару"
+
+#: src/Sorting.php:33
+msgctxt "sorting"
+msgid "Product sales number"
+msgstr "Кількістю продаж товару"
+
+#: src/Sorting.php:32
+msgctxt "sorting"
+msgid "Product price"
+msgstr "Ціною товару"
+
+#: src/Sorting.php:27
+msgctxt "sorting"
+msgid "Number of comments"
+msgstr "Кількістю коментарів"
+
+#: src/Sorting.php:26
+msgctxt "sorting"
+msgid "Date"
+msgstr "Датою"
+
+#: src/Sorting.php:24
+msgctxt "sorting"
+msgid "Title"
+msgstr "Назвою"
+
+#: src/Sorting.php:23
+msgctxt "sorting"
+msgid "Author"
+msgstr "Автором"
+
+#: src/Settings/Tabs/SettingsTab.php:92
+msgid "Select where to show Chips on your site. Or enter your theme's hooks. For example: before_main_content"
+msgstr "Оберіть, де саме показувати чіпси на вашому сайті. Або введіть назву хуків вашої теми. Напр. before_main_content"
+
+#: src/Settings/Tabs/SettingsTab.php:87
+msgid "Selected Filters (Chips) integration"
+msgstr "Вибрані фільтри (чіпси), інтеграція"
+
+#: src/Settings/Tabs/ExperimentalTab.php:73
+msgid "Enable styling"
+msgstr "Використовувати стилізацію"
+
+#: src/Settings/Tabs/ExperimentalTab.php:71
+msgid "Styled checkboxes and radio buttons"
+msgstr "Стилізовані чекбокси та радіокнопки"
+
+#: src/Settings/Tabs/ExperimentalTab.php:67
+msgid "Appearance"
+msgstr "Вигляд"
+
+#: src/Settings/Tabs/ExperimentalTab.php:48
+msgid "Wait Cursor (on desktop only)"
+msgstr "Курсор очікування (лише для десктопів)"
+
+#: src/Settings/Tabs/AboutProTab.php:142
+msgid "Special Pop-up Filters widget for Mobile Devices"
+msgstr "Спеціальний Pop-up віджет фільтрів для мобільних"
+
+#: src/Settings/Tabs/AboutProTab.php:137
+msgid "Individual Filter Sets for any pages and archives"
+msgstr "Індивідуальні набори фільтрів для будь яких сторінок"
+
+#: src/Settings/Tabs/AboutProTab.php:127
+msgid "Smart filtering by Woo product variations"
+msgstr "Розумне фільтрування по варіаціям товарів"
+
+#: src/Settings/Tabs/AboutProTab.php:82
+msgid "Sorting widget"
+msgstr "Віджет сортування"
+
+#: src/Plugin.php:1030
+msgid "Select or enter hooks"
+msgstr "Виберіть або впишіть"
+
+#: src/Admin/Widgets/SortingWidget.php:127
+#: src/Admin/Widgets/SortingWidget.php:175
+msgctxt "sorting"
+msgid "DESC"
+msgstr "Спадання (DESC)"
+
+#: src/Admin/Widgets/SortingWidget.php:127
+#: src/Admin/Widgets/SortingWidget.php:175
+msgctxt "sorting"
+msgid "ASC"
+msgstr "Зростання (ASC)"
+
+#: src/Admin/FilterSet.php:86
+msgid "To hide or not Filter terms that do not contain posts"
+msgstr "Приховувати чи показувати терми, які не містять дописів"
+
+#: src/Admin/FilterSet.php:83
+msgid "Hide in the initial Filter only"
+msgstr "Приховувати тільки в початкових фільтрах"
+
+#: src/Admin/FilterSet.php:82
+msgid "Always hide"
+msgstr "Завжди приховувати"
+
+#: src/Admin/FilterSet.php:81
+msgid "Never hide"
+msgstr "Не приховувати"
+
+#: src/Admin/FilterSet.php:76
+msgid "Empty Terms"
+msgstr "Пусті терми"
+
+#: src/Plugin.php:290
+msgid "Search Field"
+msgstr "Поле пошуку"
+
+#: src/Admin/Admin.php:134
+msgid "WooCommerce before main content"
+msgstr "WooCommerce, над основним контентом"
+
+#: src/Admin/Admin.php:133
+msgid "WooCommerce before Shop loop"
+msgstr "WooCommerce, над списком товарів"
+
+#: src/Admin/Admin.php:132
+msgid "WooCommerce no products found"
+msgstr "WooCommerce, товари не знайдено"
+
+#: src/Admin/Admin.php:131
+msgid "WooCommerce archive description"
+msgstr "WooCommerce, опис архіву"
+
+#: views/admin/sorting-item.php:37
+msgid "Order"
+msgstr "Порядок"
+
+#: views/admin/sorting-item.php:29
+msgid "Order By"
+msgstr "Сортувати за"
+
+#: src/Admin/FilterSet.php:271 src/wpc-default-hooks.php:183
+msgid "Note: for ACF meta fields, please use names without the \"_\" character at the beginning"
+msgstr "Примітка: для мета полів ACF не використовуйте ті, що починаються із символу \"_\""
+
+#. translators: %s: rest_api_init
+#: src/wpc-api.php:18
+msgid "Please, do not call the \"%s\" function before the \"wp\" action"
+msgstr "Будь ласка не викликайте функцію «%s» перед хуком «wp»"
+
+#: src/Sorting.php:50
+msgid "By date: newest first"
+msgstr "За датою: спочатку новіші"
+
+#: src/Sorting.php:49
+msgid "By date: oldest first"
+msgstr "За датою: спочатку старіші"
+
+#: src/Sorting.php:48
+msgid "By title: reverse"
+msgstr "За назвою: в зворотньому порядку"
+
+#: src/Sorting.php:47
+msgid "By title: alphabetical"
+msgstr "За назвою: по алфавіту"
+
+#: src/Sorting.php:46
+msgid "Default sorting"
+msgstr "Початкове сортування"
+
+#: views/admin/sorting-item.php:33
+msgid "Meta key"
+msgstr "Ключем мета поля"
+
+#: src/Admin/FilterFields.php:124
+msgid "Date"
+msgstr "Дата"
+
+#: src/Sorting.php:25
+msgid "Name (post slug)"
+msgstr "Постійним посиланням (слагом)"
+
+#: views/admin/filters-set.php:57 views/admin/sorting-item.php:25
+msgid "Title"
+msgstr "Назва"
+
+#: src/Sorting.php:22
+msgid "Random"
+msgstr "У випадковому порядку"
+
+#: src/Sorting.php:21
+msgid "By ID"
+msgstr "ID допису"
+
+#: src/Admin/FilterFields.php:367 src/Sorting.php:20
+msgid "Default (no sorting)"
+msgstr "Замовчуванням (без сортування)"
+
+#: src/Settings/Tabs/ExperimentalTab.php:93
+msgid "Hide Woocommerce default sorting dropdown"
+msgstr "Приховати звичайне сортування WooCommerce"
+
+#: src/Settings/Tabs/ExperimentalTab.php:91
+msgid "Woocommerce Order By dropdown"
+msgstr "Сортування WooCommerce"
+
+#: src/PostTypes.php:29
+msgid "Filter Sets are Filters grouped together. Create your first Filter Set."
+msgstr "Створіть свій перший набір фільтрів."
+
+#: src/Plugin.php:1043 src/Plugin.php:1090 src/wpc-third-party.php:430
+#: views/admin/sorting-item.php:9 views/admin/sorting-item.php:20
+msgid "Item #"
+msgstr "Параметр №"
+
+#: src/Admin/Widgets/SortingWidget.php:149
+msgid "+ Add sorting option"
+msgstr "+ Додати параметр сортування"
+
+#: src/Admin/Widgets/SortingWidget.php:107
+msgid "Sorting options:"
+msgstr "Параметри сортування:"
+
+#: src/Admin/Widgets/SortingWidget.php:14
+#: src/Admin/Widgets/SortingWidget.php:37
+#: src/Admin/Widgets/SortingWidget.php:42
+msgid "Filter Everything &mdash; Sorting"
+msgstr "Filter Everything &mdash; Сортування"
+
+#: src/Admin/Shortcodes.php:137
+msgid "Wrong Sorting widget id. Please, specify the correct."
+msgstr "Вказаний ID віджету сортування некоректний. Будь ласка вкажіть ID існуючого віджету сортування."
+
+#: src/Admin/Shortcodes.php:115
+msgid "Please, specify desired Sorting widget by adding the id parameter to the shortcode."
+msgstr "Будь ласка, вкажіть віджет сортування додавши його id до шорткоду."
+
+#: src/Admin/Shortcodes.php:109
+msgid "No title"
+msgstr "Без заголовку"
+
+#: src/Admin/FilterSet.php:300
+msgid "Preview the selected location in a new tab"
+msgstr "Переглянути розташування в новій вкладці"
+
+#: src/Admin/FilterFields.php:1736
+msgid "Error: var name is not allowed because it matches a taxonomy or term name already used on your site."
+msgstr "Помилка: така назва URL змінної не дозволяється, оскільки вона співпадає з тегом, категорією чи іншим термом таксономії."
+
+#: src/Admin/FilterFields.php:1735
+msgid "Error: this prefix is not allowed because it matches a taxonomy or term name already used on your site. Please use a different prefix."
+msgstr "Помилка: такий URL префікс не дозволяється, оскільки він співпадає з тегом, категорією чи іншим термом таксономії. Будь ласка, спробуйте інший префікс."
+
+#: src/wpc-helpers.php:922
+msgid "Possible reasons: 1) Filter's criterion doesn't contain any terms yet, and you have to add them 2) Terms may be created, but no one post that should be filtered attached to these terms 3) You excluded all possible terms in Filter's options."
+msgstr "Можливі причини: 1) Фільтр ще не має жодного терму і спочатку ви повинні створити їх 2) Терми можуть бути створені, але жоден допис цієї сторінки не пов'язаний з термами 3) Ви вилучили всі терми в налаштуваннях фільтра."
+
+#: src/wpc-helpers.php:1207
+msgid "Debug messages are visible for logged in administrators only. You can disable them in Filters -> <a href=\"%s\">Settings</a> -> Debug mode."
+msgstr "Ці повідомлення видимі лише для залогінених адміністраторів. Ви можете вимкнути їх у Фільтри -> <a href=\"%s\">Налаштування</a> -> Режим відлагодження."
+
+#: src/wpc-helpers.php:1204
+msgid "Filter Everything debug"
+msgstr "Налагодження Filter Everything"
+
+#: src/Settings/Tabs/SettingsTab.php:98
+msgid "Enable debugging messages to help to configure filters"
+msgstr "Увімкнути повідомлення для допомоги в налаштуванні фільтрів"
+
+#: src/Settings/Tabs/SettingsTab.php:96
+msgid "Debug mode"
+msgstr "Режим відлагодження"
+
+#: src/Settings/Tabs/SettingsTab.php:57
+msgid "Please enable this option only after you have ensured that the filtering is working correctly"
+msgstr "Будь ласка, вмикайте AJAX в останню чергу і лише після того, як переконаєтесь, що фільтрування працює"
+
+#: src/Settings/BaseSettings.php:97
+msgid "You must specify Posts Container, otherwise AJAX will not work properly"
+msgstr "Потрібно вказати контейнер з дописами, інакше AJAX не працюватиме"
+
+#: src/Admin/Widgets/FiltersWidget.php:515
+msgid "<a href=\"%s\">Edit</a> Filter Set"
+msgstr "<a href=\"%s\">Змін.</a> набір фільтрів"
+
+#: src/Admin/Widgets/FiltersWidget.php:156
+msgid "There are no filters in the Filter Set yet. Please add them to the <a href=\"%s\">Filter Set</a> related to this page."
+msgstr "Цей набір фільтрів пустий. Ви можете <a href=\"%s\">додати до нього</a> фільтри."
+
+#: src/Admin/Widgets/FiltersWidget.php:629
+msgid "No one Filter Set is configured for this post type pages. You can create a new <a href=\"%s\">Filter Set</a> for them."
+msgstr "Для сторінок цього типу допису не існує жодного набору фільтрів. Ви можете створити такий <a href=\"%s\">набір</a>."
+
+#: src/Admin/Widgets/FiltersWidget.php:619
+msgid "The free version of the plugin does not support filtering on singular pages. But <a href=\"%s\">PRO version</a> supports."
+msgstr "Поточна версія плагіну не підтримує фільтрування на сторінках даного типу. Проте це дозволяє <a href=\"%s\">PRO версія</a>."
+
+#: src/Admin/Widgets/FiltersWidget.php:608
+msgid "No one Filter Set is related to this page. You can configure it in the <a href=\"%s\">Filter Set</a> -> \"Where to filter?\" field."
+msgstr "З цією сторінкою не пов'язаний жоден набір фільтрів. Ви можете прив'язати його в полі «Де фільтрувати?» у <a href=\"%s\">наборі фільтрів</a>."
+
+#: views/frontend/range.php:71
+msgid "%s: %d &mdash; %d"
+msgstr "%s: %d &mdash; %d"
+
+#: views/frontend/posts-found.php:26
+msgid "<span class=\"%s\">%d</span> %s found"
+msgid_plural "<span class=\"%s\">%d</span> %s found"
+msgstr[0] "<span class=\"%s\">%d</span> %s знайдений"
+msgstr[1] "<span class=\"%s\">%d</span> %s знайдено"
+msgstr[2] "<span class=\"%s\">%d</span> %s знайдено"
+
+#: views/frontend/filters-button.php:25
+msgid "Filtered %s"
+msgstr "Знайдено %s"
+
+#: src/wpc-default-hooks.php:373
+msgid "- Select %s -"
+msgstr "- Виберіть %s -"
+
+#: views/frontend/chips.php:25 views/frontend/chips.php:27
+msgid "Remove %s from results"
+msgstr "Видалити %s з результатів"
+
+#: views/admin/seo-vars.php:9
+msgid "Insert variable"
+msgstr "Вставити змінну"
+
+#: views/admin/options.php:12
+msgid "Filters Settings"
+msgstr "Налаштування"
+
+#: views/admin/filters-set.php:132
+msgid "Add Filter"
+msgstr "Додати фільтр"
+
+#: views/admin/filters-set.php:67
+msgid "There are no filters yet. Click the <strong>Add Filter</strong> button to create your first one."
+msgstr "Фільтрів ще немає. Натисніть <strong>Додати фільтр</strong> щоб створити перший."
+
+#: views/admin/filters-set.php:60
+msgid "URL Prefix"
+msgstr "URL префікс"
+
+#: views/admin/filters-set.php:59
+msgid "View"
+msgstr "Вигляд"
+
+#: views/admin/filters-set-advices.php:80
+msgid "by product Weight"
+msgstr "за вагою товару"
+
+#: views/admin/filters-set-advices.php:79
+msgid "by product Height"
+msgstr "по висоті товару"
+
+#: views/admin/filters-set-advices.php:77
+msgid "by product Length"
+msgstr "по довжині товару"
+
+#: views/admin/filters-set-advices.php:75
+msgid "by Stock Quantity (Custom Field Numeric)"
+msgstr "по кількості В наявності (Мета поле, тип «Числа»‎)"
+
+#: views/admin/filters-set-advices.php:71
+msgid "by Sales Count"
+msgstr "по кількості продаж"
+
+#: views/admin/filters-set-advices.php:70
+msgid "by Sale Price (Custom Field Numeric) or on Sale Status (Custom Field Exists)"
+msgstr "по акційній ціні (Мета поле, тип «Числа»‎) або по акційному статусу товару (Мета поле, тип «Існує»‎)"
+
+#: src/Settings/Tabs/ExperimentalTab.php:87
+#: views/admin/filters-set-advices.php:66
+msgid "WooCommerce"
+msgstr "WooCommerce"
+
+#: views/admin/filters-set-advices.php:95
+msgid "filter by Featured Image (Custom Field Exists)"
+msgstr "фільтр по Головній картинці допису (Мета поле, тип «Існує»‎)"
+
+#: views/admin/filters-set-advices.php:93
+msgid "WordPress"
+msgstr "WordPress"
+
+#: views/admin/filters-seo-rules.php:38
+msgid "For example, you need to set SEO data for the page with URL path:<br />/color-blue/size-large/<br />For this purpose, you have to select filters «Color» and «Size» only.<br />If you want to create a common template for all color and size values, please choose <br />«Any Color» and «Any Size». If you need to set SEO data for specific Color and Size, please choose specific values like «Blue» and «Large»."
+msgstr "Наприклад вам потрібно згенерувати SEO дані для сторінки, що має такий URL:<br />/color-blue/size-large/<br />Для цього вам потрібно вибрати фільтри «Колір» та «Розмір».<br />Якщо ви хочете створити шаблон для будь-яких значень кольору та розміру, будь ласка виберіть<br />«Будь який колір» і «Будь який розмір».<br />Якщо вам потрібно згерерувати SEO дані тільки для певних кольору та розміру, будь ласка оберіть конкретні їх значення - наприклад «Синій» та «Великий»"
+
+#: views/admin/filters-seo-rules.php:35
+msgid "Specify the filter or filters combination for which you need to set SEO data"
+msgstr "Вкажіть фільтр чи комбінацію фільтрів, для яких потрібно генерувати SEO дані"
+
+#: views/admin/filters-seo-rules.php:33
+msgid "Filters Combination"
+msgstr "Комбінація фільтрів"
+
+#: views/admin/filters-seo-rules.php:24
+msgid "Select Post Type for SEO Rule"
+msgstr "Оберіть тип допису для SEO правила"
+
+#: views/admin/filters-seo-rules.php:22
+msgid "Post Type"
+msgstr "Тип допису"
+
+#: views/admin/filters-intersections.php:45
+msgid "Sorry. There are no filters active for SEO for the selected post type"
+msgstr "Вибачте. Ще немає активованих для SEO фільтрів пов'язаних з обраним типом допису"
+
+#: views/admin/filter-row.php:103
+msgid "Delete, I'm sure"
+msgstr "Видалити, я впевнений"
+
+#: views/admin/filter-row.php:95
+msgid "Delete"
+msgstr "Видалити"
+
+#: views/admin/filter-row.php:94
+msgid "Close"
+msgstr "Закрити"
+
+#: src/WpManager.php:982 src/WpManager.php:1252
+msgid "Sorry, you are not allowed to view this item."
+msgstr "На жаль, вам не дозволено переглядати цей елемент."
+
+#: src/WpManager.php:982 src/WpManager.php:1252
+msgid "A variable mismatch has been detected."
+msgstr "Виявлено розбіжність змінних."
+
+#: src/WpManager.php:744
+msgid "Main Query."
+msgstr "Main Query."
+
+#: src/WpManager.php:742
+msgid "query"
+msgstr "query"
+
+#: src/Plugin.php:315 src/wpc-helpers.php:958 src/WpManager.php:718
+#: views/admin/filter-search-field.php:10 views/frontend/search.php:21
+msgid "Search"
+msgstr "Пошук"
+
+#: src/wpc-helpers.php:1047
+msgid "Filter Everything"
+msgstr "Filter Everything"
+
+#: src/wpc-helpers.php:1045
+msgid "Filter Everything Pro"
+msgstr "Filter Everything Pro"
+
+#: src/wpc-helpers.php:690
+msgid "item"
+msgstr "допис"
+
+#: src/wpc-helpers.php:689
+msgid "items"
+msgstr "дописів"
+
+#: src/wpc-default-hooks.php:179
+msgid "a-z, 0-9, \"_\" and \"-\" symbols supported only"
+msgstr "дозволені символи a-z, 0-9, \"_\" та \"-\""
+
+#: src/wpc-default-hooks.php:87
+msgid "Regular price"
+msgstr "Звичайна ціна"
+
+#: src/wpc-default-hooks.php:84
+msgid "On Sale"
+msgstr "Акція"
+
+#: src/Settings/Tabs/SettingsTab.php:111
+msgid "General"
+msgstr "Основні"
+
+#: src/Settings/Tabs/SettingsTab.php:89
+msgid "Try to show selected terms above the posts container"
+msgstr "Спробуйте показати вибрані терми (чіпси) над дописами"
+
+#: src/Settings/Tabs/SettingsTab.php:81
+msgid "Filter Container max height, px"
+msgstr "Макс. висота контейнера з фільтром, px"
+
+#: src/Settings/Tabs/SettingsTab.php:74
+msgid "Widget Primary Color"
+msgstr "Основний колір віджету"
+
+#: src/Settings/Tabs/ExperimentalTab.php:110
+#: src/Settings/Tabs/SettingsTab.php:70
+msgid "Other"
+msgstr "Інші"
+
+#: src/Settings/Tabs/SettingsTab.php:64
+msgid "e.g. #primary or .main-content"
+msgstr "напр. #primary або .main-content"
+
+#: src/Settings/Tabs/SettingsTab.php:56
+msgid "Try to use AJAX"
+msgstr "Спробувати активувати AJAX"
+
+#: src/Settings/Tabs/SettingsTab.php:54
+msgid "AJAX for Filters"
+msgstr "AJAX для фільтрів"
+
+#: src/Settings/Tabs/SettingsTab.php:45
+msgid "Try to move the sidebar to the top on mobile devices"
+msgstr "Спробувати перемістити сайдбар на мобільних"
+
+#: src/Settings/Tabs/SettingsTab.php:43
+msgid "Sidebar on top"
+msgstr "Сайдбар зверху сторінки"
+
+#: src/Settings/Tabs/SettingsTab.php:39
+msgid "Collapse the widget and show the Filters opening button"
+msgstr "Згорнути віджет і показати кнопки «‎Відкрити»"
+
+#: src/Settings/Tabs/SettingsTab.php:37
+msgid "Collapse Filters Widget on Mobile devices"
+msgstr "Згортати віджет фільтрів на мобільних пристроях"
+
+#: src/Settings/Tabs/SettingsTab.php:33
+msgid "Mobile devices"
+msgstr "Мобільні пристрої"
+
+#: src/Settings/Tabs/PermalinksTab.php:326
+msgid "URL Var Names"
+msgstr "Назви змінних URL"
+
+#: src/Settings/Tabs/PermalinksTab.php:326
+msgid "URL Prefixes"
+msgstr "URL префікси"
+
+#: src/Settings/Tabs/PermalinksTab.php:318
+msgid "No filters have been created on this site yet. <a href=\"%s\" target=\"_blank\">Create your first one!</a>"
+msgstr "Поки що не створено жодного фільтра на цьому сайті. <a href=\"%s\" target=\"_blank\">Створіть свій перший фільтр</a>"
+
+#: src/Settings/Tabs/PermalinksTab.php:310
+msgid "Edit var names."
+msgstr "Редагувати URL змінні."
+
+#: src/Settings/Tabs/PermalinksTab.php:199
+msgid "Duplicate prefixes. Prefixes should be unique."
+msgstr "Дублювання URL префіксів. Префікси повинні бути унікальними."
+
+#: src/Settings/Tabs/PermalinksTab.php:193
+msgid "Prefix «%s» is not allowed because such a term already exists. Please, use another prefix."
+msgstr "Префікс «%s» не дозволений тому що вже існує терм з таким слагом. Будь ласка, виберіть якийсь інший."
+
+#: src/Settings/Tabs/PermalinksTab.php:188
+msgid "Prefix part before the \"-\" character can not be equal to another existing prefix."
+msgstr "Частина URL префіксу перед \"-\" не може співпадати з іншим існуючим префіксом."
+
+#: src/Settings/Tabs/PermalinksTab.php:178
+msgid "The Prefix must contain at least one alphabetical character."
+msgstr "URL префікс повинен містити хоча б одну букву латинського алфавіту."
+
+#: src/Settings/Tabs/PermalinksTab.php:92
+msgid "%s prefix"
+msgstr "%s префікс"
+
+#: src/Settings/Tabs/PermalinksTab.php:55
+msgid "Global filter prefixes and order"
+msgstr "Глобальні префікси та їх порядок"
+
+#: src/Settings/Tabs/PermalinksTab.php:48
+msgid "Global URL Var Names"
+msgstr "Глобальні назви змінних URL"
+
+#: src/Settings/Tabs/ExperimentalTab.php:156
+msgid "Experimental"
+msgstr "Експериментальні"
+
+#: src/Settings/Tabs/ExperimentalTab.php:142
+msgid "Custom CSS"
+msgstr "Власний CSS"
+
+#: src/Settings/Tabs/ExperimentalTab.php:138
+msgid "Customization"
+msgstr "Кастомізація"
+
+#: src/Settings/Tabs/ExperimentalTab.php:79
+msgid "Use improved dropdowns instead of regular ones (jQuery plugin Select2)"
+msgstr "Використовувати покращені випадаючі списки замість звичайних (jQuery плагін Select2)"
+
+#: src/Settings/Tabs/ExperimentalTab.php:77
+msgid "Improved dropdowns"
+msgstr "Покращені випадаючі списки"
+
+#: src/Settings/Tabs/ExperimentalTab.php:62
+msgid "Automatically Scroll to the top of the posts grid"
+msgstr "Автоматично прокручувати до верху дописів"
+
+#: src/Settings/Tabs/ExperimentalTab.php:60
+msgid "Smart Auto Scroll (on desktop only)"
+msgstr "Розумне автопрокручування (лише для десктопів)"
+
+#: src/Settings/Tabs/ExperimentalTab.php:56
+msgid "Use a dark transparent overlay instead of white"
+msgstr "Використовувати темний прозорий фон замість білого"
+
+#: src/Settings/Tabs/ExperimentalTab.php:54
+msgid "Dark Overlay (on desktop only)"
+msgstr "Темний фон (лише для десктопів)"
+
+#: src/Settings/Tabs/ExperimentalTab.php:50
+msgid "Use Wait Cursor for AJAX"
+msgstr "Увімкнути курсор очікування для AJAX"
+
+#: src/Settings/Tabs/ExperimentalTab.php:44
+msgid "Show icon"
+msgstr "Показувати іконку"
+
+#: src/Settings/Tabs/ExperimentalTab.php:42
+msgid "AJAX loading icon (on desktop only)"
+msgstr "Іконка статусу AJAX (лише для десктопів)"
+
+#: src/Settings/Tabs/ExperimentalTab.php:38
+#: src/Settings/Tabs/SettingsTab.php:50
+msgid "AJAX"
+msgstr "AJAX"
+
+#: src/Settings/Tabs/AboutProTab.php:163
+msgid "Premium support"
+msgstr "Преміум підтримка"
+
+#: src/Settings/Tabs/AboutProTab.php:158
+msgid "Stars for Product rating filter"
+msgstr "Іконки зірочок для рейтингу товарів"
+
+#: src/Settings/Tabs/AboutProTab.php:153
+msgid "Hide filter if all terms are empty"
+msgstr "Приховування фільтра, якщо всі його терми пусті"
+
+#: src/Settings/Tabs/AboutProTab.php:148
+msgid "Individual AJAX containers for Filter Sets"
+msgstr "Індивідуальні AJAX контейнери для наборів фільтрів"
+
+#: src/Settings/Tabs/AboutProTab.php:132
+msgid "SEO Rules, indexing filtering result pages by Search Engines"
+msgstr "SEO правила, індексація сторінок фільтрування"
+
+#: src/Settings/Tabs/AboutProTab.php:122
+msgid "Clean URLs and Permalinks"
+msgstr "Читабельні URL та пермалінки"
+
+#: src/Settings/Tabs/AboutProTab.php:112
+msgid "Filtering Custom WP Queries"
+msgstr "Фільтрування кастомних WP Query"
+
+#: src/Settings/Tabs/AboutProTab.php:117
+msgid "Compatibility with Page builders"
+msgstr "Сумісність з будь-яким Page builder"
+
+#: src/Settings/Tabs/AboutProTab.php:62
+msgid "Filtering by Taxonomies, Custom Fields, Post Author"
+msgstr "Фільтрування по Таксономіям, Мета полям, Автору"
+
+#: src/Settings/Tabs/AboutProTab.php:67
+msgid "Custom URL prefixes for filters"
+msgstr "Кастомні URL префікси для фільтрів"
+
+#: src/Settings/Tabs/AboutProTab.php:77
+msgid "Count, dynamic recount in terms"
+msgstr "Перерахунок кількості дописів в термах"
+
+#: src/Settings/Tabs/AboutProTab.php:72
+msgid "Supports AJAX"
+msgstr "Підтримка AJAX"
+
+#: src/Settings/Tabs/AboutProTab.php:57
+msgid "Filters any Post Type (posts, products, etc.)"
+msgstr "Фільтрування будь-яких типів дописів"
+
+#: src/Settings/Tabs/AboutProTab.php:52
+msgid "Current<br />version"
+msgstr "Поточна<br />версія"
+
+#: src/Settings/Tabs/AboutProTab.php:50
+msgid "PRO"
+msgstr "PRO"
+
+#: src/Settings/Tabs/AboutProTab.php:42
+msgid "Read more"
+msgstr "Дізнатися більше"
+
+#: src/Settings/Tabs/AboutProTab.php:39
+msgid "Filter Everything plugin is also available in a professional version<br /> which includes additional features such as clean URLs, the ability to customize SEO,<br /> individual Filter Sets for pages, and other great features."
+msgstr "Плагін Filter Everything також доступний в професійній версії,<br />яка включає такі речі як читабельні URL, можливість керувати SEO сторінок фільтрування,<br />індивідуальні набори фільтрів для сторінок та інші унікальні можливості."
+
+#: src/PostTypes.php:54
+msgid "No Filters found"
+msgstr "Фільтрів не знайдено"
+
+#: src/PostTypes.php:53
+msgid "Search Filters"
+msgstr "Шукати фільтри"
+
+#: src/PostTypes.php:52
+msgid "View Filter"
+msgstr "Переглянути фільтр"
+
+#: src/PostTypes.php:50
+msgid "Edit Filter"
+msgstr "Редагувати фільтр"
+
+#: src/PostTypes.php:49
+msgid "Add New Filter"
+msgstr "Додати фільтр"
+
+#: src/PostTypes.php:47
+msgid "Filter"
+msgstr "Фільтр"
+
+#: src/PostTypes.php:55
+msgid "No Filters were found in Trash"
+msgstr "Не знайдено жодного набору фільтрів у кошику"
+
+#: src/PostTypes.php:28
+msgid "Search Filter Sets"
+msgstr "Шукати набори фільтрів"
+
+#: src/PostTypes.php:27
+msgid "View Filter Set"
+msgstr "Переглянути набір фільтрів"
+
+#: src/PostTypes.php:26
+msgid "New Filter Set"
+msgstr "Новий набір фільтрів"
+
+#: src/PostTypes.php:25
+msgid "Edit Filter Set"
+msgstr "Редагувати набір"
+
+#: src/PostTypes.php:23 src/PostTypes.php:24
+msgid "Add Filter Set"
+msgstr "Додати новий"
+
+#: src/PostTypes.php:22
+msgid "Filter Set"
+msgstr "Набір фільтрів"
+
+#: src/Plugin.php:1029 src/Settings/BaseSettings.php:332
+msgid "Editing the order of URL prefixes is available in the PRO version"
+msgstr "Зміна порядку префіксів в URL доступна лише в PRO версії"
+
+#: src/Plugin.php:266
+msgid "Specify individual HTML selector of Posts Container for AJAX"
+msgstr "Вкажіть індивідуальний HTML атрибут контейнеру з дописами для роботи AJAX"
+
+#: src/Plugin.php:259 src/Settings/Tabs/SettingsTab.php:61
+msgid "HTML id or class of the Posts Container"
+msgstr "HTML id або class контейнеру з дописами"
+
+#: src/Entities/EntityManager.php:190
+msgid "Post Author"
+msgstr "Автор"
+
+#: src/Entities/EntityManager.php:187
+msgid "Other Filters"
+msgstr "Інші фільтри"
+
+#: src/Entities/EntityManager.php:183
+msgid "Custom Field Exists - Available in Pro"
+msgstr "Користувацьке поле існує - доступне в Pro"
+
+#: src/Entities/EntityManager.php:181
+msgid "Custom Field"
+msgstr "Мета поле"
+
+#: src/Entities/EntityManager.php:179
+msgid "Custom Field Filters"
+msgstr "Фільтри по мета полям"
+
+#: src/Entities/EntityManager.php:174
+msgid "Taxonomy Filters"
+msgstr "Фільтри по таксономіям"
+
+#: src/Chips.php:62 views/frontend/chips.php:23
+msgid "Reset all"
+msgstr "Скинути всі"
+
+#: src/Admin/Widgets/FiltersWidget.php:553
+msgid "Show the number of posts found"
+msgstr "Показувати кількість знайдених дописів"
+
+#: src/Admin/Widgets/FiltersWidget.php:557
+msgid "Show selected terms (Chips)"
+msgstr "Показувати вибрані терми (Чіпси)"
+
+#: views/frontend/bottom-controls.php:21
+msgid "Show %s"
+msgstr "Показати %s"
+
+#: views/admin/filter-row.php:104 views/frontend/bottom-controls.php:29
+msgid "Cancel"
+msgstr "Відміна"
+
+#: src/Admin/Widgets/FiltersWidget.php:16
+#: src/Admin/Widgets/FiltersWidget.php:56
+#: src/Admin/Widgets/FiltersWidget.php:61
+msgid "Filter Everything &mdash; Filters"
+msgstr "Filter Everything &mdash; Фільтри"
+
+#: src/Admin/Widgets/ChipsWidget.php:79
+msgid "Show on mobile"
+msgstr "Відображати на мобільних пристроях"
+
+#: src/Admin/Widgets/ChipsWidget.php:75
+msgid "e.g. 2745, 324"
+msgstr "напр. 2745, 324"
+
+#: src/Admin/Widgets/ChipsWidget.php:74
+msgid "Show Chips only for Set with IDs:"
+msgstr "Показувати чіпси лише для набору фільтрів з ID:"
+
+#: src/Admin/Widgets/ChipsWidget.php:70 src/Admin/Widgets/FiltersWidget.php:548
+#: src/Admin/Widgets/SortingWidget.php:104
+msgid "Title:"
+msgstr "Заголовок:"
+
+#: src/Admin/Widgets/ChipsWidget.php:14 src/Admin/Widgets/ChipsWidget.php:35
+#: src/Admin/Widgets/ChipsWidget.php:40
+msgid "Filter Everything &mdash; Chips"
+msgstr "Filter Everything &mdash; Чіпси"
+
+#: src/Admin/MetaBoxes.php:304 src/Admin/MetaBoxes.php:305
+msgid "Update"
+msgstr "Оновити"
+
+#: src/Admin/MetaBoxes.php:298 src/Admin/MetaBoxes.php:299
+msgid "Submit for Review"
+msgstr "Відправити на розгляд"
+
+#: src/Admin/MetaBoxes.php:287 src/Admin/MetaBoxes.php:288
+msgctxt "post action/button label"
+msgid "Schedule"
+msgstr "Відкласти"
+
+#: src/Admin/MetaBoxes.php:271
+msgid "Move to Trash"
+msgstr "Перемістити в кошик"
+
+#: src/Admin/MetaBoxes.php:269
+msgid "Delete permanently"
+msgstr "Видалити остаточно"
+
+#. translators: %s: URL to the Customizer.
+#: src/Admin/MetaBoxes.php:221
+msgid "This draft comes from your <a href=\"%s\">unpublished customization changes</a>. You can edit, but there&#8217;s no need to publish now. It will be published automatically with those changes."
+msgstr "Ця чернетка створена на основі ваших <a href=\"%s\">неопублікованих змін у налаштуваннях</a>. Ви можете редагувати, але публікувати зараз не потрібно. Він буде опублікований автоматично з цими змінами."
+
+#: src/Admin/MetaBoxes.php:198
+msgid "Browse revisions"
+msgstr "Переглянути зміни"
+
+#: src/Admin/MetaBoxes.php:198
+msgctxt "revisions"
+msgid "Browse"
+msgstr "Переглянути"
+
+#: src/Admin/MetaBoxes.php:194
+msgid "Revisions: %s"
+msgstr "Ревізії: %s"
+
+#. translators: Post date information. %s: Date on which the post is to be
+#. published.
+#: src/Admin/MetaBoxes.php:172
+msgid "Publish on: %s"
+msgstr "Опублікувати на: %s"
+
+#. translators: Post date information. %s: Date on which the post is to be
+#. published.
+#: src/Admin/MetaBoxes.php:169
+msgid "Schedule for: %s"
+msgstr "Відкласти на: %s"
+
+#: src/Admin/MetaBoxes.php:166 src/Admin/MetaBoxes.php:180
+msgid "Publish <b>immediately</b>"
+msgstr "Опублікувати <b>негайно</b>"
+
+#. translators: Post date information. %s: Date on which the post was
+#. published.
+#: src/Admin/MetaBoxes.php:164
+msgid "Published on: %s"
+msgstr "Опубліковано: %s"
+
+#. translators: Post date information. %s: Date on which the post is currently
+#. scheduled to be published.
+#: src/Admin/MetaBoxes.php:161
+msgid "Scheduled for: %s"
+msgstr "Заплановано на: %s"
+
+#. translators: Publish box time format, see
+#. https://www.php.net/manual/datetime.format.php
+#: src/Admin/MetaBoxes.php:156
+msgctxt "publish box time format"
+msgid "H:i"
+msgstr "H:i"
+
+#. translators: Publish box date format, see
+#. https://www.php.net/manual/datetime.format.php
+#: src/Admin/MetaBoxes.php:154
+msgctxt "publish box date format"
+msgid "M j, Y"
+msgstr "M j, Y"
+
+#. translators: Publish box date string. 1: Date, 2: Time. See
+#. https://www.php.net/manual/datetime.format.php
+#: src/Admin/MetaBoxes.php:152
+msgid "%1$s at %2$s"
+msgstr "%1$s на %2$s"
+
+#: src/Admin/MetaBoxes.php:143
+msgid "Draft"
+msgstr "Чернетка"
+
+#: src/Admin/MetaBoxes.php:139
+msgid "Pending Review"
+msgstr "Очікує на розгляд"
+
+#: src/Admin/MetaBoxes.php:136
+msgid "Scheduled"
+msgstr "Заплановано"
+
+#: src/Admin/MetaBoxes.php:133
+msgid "Published"
+msgstr "Опубліковано"
+
+#: src/Admin/MetaBoxes.php:130
+msgid "Privately Published"
+msgstr "Опубліковано приватно"
+
+#: src/Admin/MetaBoxes.php:125
+msgid "Status:"
+msgstr "Статус:"
+
+#: src/Admin/MetaBoxes.php:104 assets/js/wpc-widgets.js:37
+msgid "Save"
+msgstr "Зберегти"
+
+#: src/Admin/MetaBoxes.php:45 src/Admin/MetaBoxes.php:292
+#: src/Admin/MetaBoxes.php:293
+msgid "Publish"
+msgstr "Опублікувати"
+
+#: src/Admin/FilterSet.php:333
+msgid "Show this Filter Set if the page is:"
+msgstr "Виводити цей набір фільтрів, якщо це сторінка:"
+
+#: src/Admin/FilterSet.php:259
+msgid "Less options"
+msgstr "Менше налаштувань"
+
+#: src/Admin/FilterSet.php:258 views/admin/filter-row.php:35
+msgid "More options"
+msgstr "Більше налаштувань"
+
+#: src/Admin/FilterSet.php:96
+msgid "Displays the number of posts in a term"
+msgstr "Показувати кількість дописів у термі"
+
+#: src/Admin/FilterSet.php:49
+msgid "Select the Post Type you need to filter"
+msgstr "Оберіть тип допису, який потрібно фільтрувати"
+
+#: src/Admin/FilterSet.php:43
+msgid "Post Type to filter"
+msgstr "Тип допису"
+
+#: src/Admin/FilterFields.php:1755
+msgid "Error: SEO rule with selected Filters Combination already exists."
+msgstr "Помилка: SEO правило з такою комбінацією фільтрів вже існує."
+
+#: src/Admin/FilterFields.php:1754
+msgid "Error: invalid SEO Rule ID."
+msgstr "Помилка: некоректне значення ID SEO правила."
+
+#: src/Admin/FilterFields.php:1753
+msgid "Error: invalid or forbidden filter presents."
+msgstr "Помилка: присутній некоректний або заборонений фільтр."
+
+#: src/Admin/FilterFields.php:1752
+msgid "Error: all SEO data fields could not be empty."
+msgstr "Помилка: хоча б одне поле з SEO даними повинно бути заповнене."
+
+#: src/Admin/FilterFields.php:1751
+msgid "Error: SEO Rule must contain at least one filter."
+msgstr "Помилка: SEO правило повинно містити хоча б один фільтр."
+
+#: src/Admin/FilterFields.php:1750
+msgid "Error: SEO Rule must have specified Post Type."
+msgstr "Помилка: потрібно вказати тип допису для SEO правила."
+
+#: src/Admin/FilterFields.php:1749
+msgid "Error: Range slider is acceptable for Post Meta Num filters only."
+msgstr "Помилка: слайдер діапазону може бути вибраний лише для фільтра з числовим мета-полем."
+
+#: src/Admin/FilterFields.php:1746
+msgid "Error: for filter Post Author logic OR is acceptable only."
+msgstr "Помилка: фільтр за автором підтримує лише логіку «АБО»."
+
+#: src/Admin/FilterFields.php:1744
+msgid "Error: invalid exclude terms"
+msgstr "Помилка: некоректні терміни для вилучення"
+
+#: src/Admin/FilterFields.php:1742
+msgid "Error: invalid Logic parameter"
+msgstr "Помилка: некоректне значення поля «Логіка фільтра»"
+
+#: src/Admin/FilterFields.php:1740
+msgid "Error: invalid View parameter."
+msgstr "Помилка: некоректне значення поля «Вигляд у віджеті»‎."
+
+#: src/Admin/FilterFields.php:1737
+msgid "Error: invalid Meta key value"
+msgstr "Помилка: некоректне значення поля «Ключ мета поля»"
+
+#: src/Admin/FilterFields.php:1734
+msgid "Error: prefix part before \"-\" character can not be equal to another existing prefix."
+msgstr "Помилка: частина URL префіксу перед \"-\" не може співпадати з іншим існуючим префіксом."
+
+#: src/Admin/FilterFields.php:1733
+msgid "Error: filter prefix should not be empty."
+msgstr "Помилка: URL префікс не може бути пустим."
+
+#: src/Admin/FilterFields.php:1732
+msgid "Error: filter prefix should have at least one alphabetic symbol."
+msgstr "Помилка: URL префікс повинен містити хоча б один символ алфавіту."
+
+#: src/Admin/FilterFields.php:1731
+msgid "Error: filter prefix is already used for another entity."
+msgstr "Помилка: такий URL префікс вже використовується."
+
+#: src/Admin/FilterFields.php:1730
+msgid "Error: invalid filter entity."
+msgstr "Помилка: некоректне значення поля «Фільтр по»."
+
+#: src/Admin/FilterFields.php:1729
+msgid "Error: invalid set ID."
+msgstr "Помилка: некоректний ID набору фільтрів."
+
+#: src/Admin/FilterFields.php:1728
+msgid "Error: invalid filter ID."
+msgstr "Помилка: некоректний ID фільтра."
+
+#: src/Admin/FilterFields.php:1727
+msgid "Error: invalid fields present."
+msgstr "Помилка: присутні некоретні поля."
+
+#: src/Admin/FilterFields.php:1726
+msgid "Error: two or more filters with equal Filter By and Meta key values are forbidden in the same Set. Please, remove or change equal filters."
+msgstr "Помилка: два і більше фільтрів з однаковим критерієм фільтрування не дозволяються в одному наборі фільтрів."
+
+#: src/Admin/FilterFields.php:1722
+msgid "Error: invalid Show count field."
+msgstr "Помилка: некоректне значення поля «Показувати кількість»‎."
+
+#: src/Admin/FilterFields.php:1721
+msgid "Error: invalid Hide empty field."
+msgstr "Помилка: некоректне значення поля «Пусті терми»."
+
+#: src/Admin/FilterFields.php:1720
+msgid "Error: invalid query."
+msgstr "Помилка: некоректний WP_Query."
+
+#: src/Admin/FilterFields.php:1718
+msgid "Error: invalid post type."
+msgstr "Помилка: некоректний тип допису."
+
+#: src/Admin/FilterFields.php:1717
+msgid "Error: invalid WP Page type."
+msgstr "Помилка: некоректний тип сторінки."
+
+#: src/Admin/FilterFields.php:1716
+msgid "An error occurred. You do not have permission to edit this."
+msgstr "Виникла помилка. У вас недостатньо повноважень редагувати це."
+
+#: src/Admin/FilterFields.php:1715
+msgid "An error occurred. SEO Rule fields were not saved, please try again."
+msgstr "Виникла помилка. SEO правило не було збережене. Будь ласка, спробуйте ще раз."
+
+#: src/Admin/FilterFields.php:1714
+msgid "An error occurred. Filter Set fields were not saved, please try again."
+msgstr "Виникла помилка. Набір фільтрів не був збережений. Будь ласка, спробуйте ще раз."
+
+#: src/Admin/FilterFields.php:1528
+msgid "An already selected value cannot be changed. But you can always delete the current one and create a new filter if you need."
+msgstr "Вже обране значення не може бути змінене. Але замість зміни ви завжди можете видалити поточний та створити новий фільтр."
+
+#: src/Admin/FilterFields.php:1302 src/Admin/FilterFields.php:1374
+#: src/Admin/FilterFields.php:1435
+msgid "An error occurred. Please, refresh the page and try again."
+msgstr "Сталася помилка. Будь ласка, оновіть сторінку і спробуйте ще раз."
+
+#: src/Admin/FilterFields.php:590 src/Admin/FilterFields.php:594
+#: src/Plugin.php:229 src/Plugin.php:242 src/Plugin.php:265
+#: src/wpc-helpers.php:388
+msgid "Available in PRO"
+msgstr "Доступно в PRO"
+
+#: src/Admin/FilterFields.php:375
+msgid "Menu order &laquo;321&raquo;"
+msgstr "Вручну (menu order) &laquo;3-2-1&raquo;"
+
+#: src/Admin/FilterFields.php:374
+msgid "Term ID &laquo;321&raquo;"
+msgstr "ID терма &laquo;3-2-1&raquo;"
+
+#: src/Admin/FilterFields.php:373
+msgid "Posts count &laquo;321&raquo;"
+msgstr "Кількістю дописів &laquo;3-2-1&raquo;"
+
+#: src/Admin/FilterFields.php:372
+msgid "Term name &laquo;cba&raquo;"
+msgstr "Назвою &laquo;В-Б-А&raquo;"
+
+#: src/Admin/FilterFields.php:371
+msgid "Menu order &laquo;123&raquo;"
+msgstr "Вручну (menu order) &laquo;1-2-3&raquo;"
+
+#: src/Admin/FilterFields.php:370
+msgid "Term ID &laquo;123&raquo;"
+msgstr "ID терма &laquo;1-2-3&raquo;"
+
+#: src/Admin/FilterFields.php:369
+msgid "Posts count &laquo;123&raquo;"
+msgstr "Кількістю дописів &laquo;1-2-3&raquo;"
+
+#: src/Admin/FilterFields.php:368
+msgid "Term name &laquo;abc&raquo;"
+msgstr "Назвою &laquo;А-Б-В&raquo;"
+
+#: src/Admin/FilterFields.php:314
+msgid "Dropdown"
+msgstr "Випадаючий список"
+
+#: src/Admin/FilterFields.php:313
+msgid "Labels list"
+msgstr "Список лейблів"
+
+#: src/Admin/FilterFields.php:312
+msgid "Radio buttons"
+msgstr "Радіокнопки"
+
+#: src/Admin/FilterFields.php:311
+msgid "Checkboxes"
+msgstr "Чекбокси"
+
+#: src/Admin/FilterFields.php:279
+msgid "Will appear next to the Filter Title"
+msgstr "З'явиться поруч з назвою фільтра"
+
+#: src/Admin/FilterFields.php:277
+msgid "Tooltip"
+msgstr "Підказка"
+
+#: src/Admin/FilterFields.php:231
+msgid "Step 1 means possible values are 1,2,3,4 ...<br />Step 0.1 means possible values are 5.1, 5.2, 5.3, 5.4 ...<br />Step 15 means possible values are 15, 30, 45, 60..."
+msgstr "Крок 1 означає можливі значення 1,2,3,4 ...<br />Крок 0.1 означає можливі значення 5.1, 5.2, 5.3, 5.4 ...<br />Крок 15 означає можливі значення 15, 30, 45, 60..."
+
+#: src/Admin/FilterFields.php:229
+msgid "Determines how the numeric value will be changed when you move slider controls"
+msgstr "Визначає, як числове значення буде змінюватися при перетягуванні повзунка слайдера"
+
+#: src/Admin/FilterFields.php:227
+msgid "Slider Step"
+msgstr "Крок слайдера"
+
+#: src/Admin/FilterFields.php:223
+msgid "If disabled, visitors must type numeric values in text inputs"
+msgstr "Якщо вимкнено, то відвідувачі змушені будуть вводити числові значення в поля"
+
+#: src/Admin/FilterFields.php:220
+msgid "Enable Range Slider?"
+msgstr "Включити слайдер діапазону?"
+
+#: src/Admin/FilterFields.php:216
+msgid "Display the term hierarchy in the filter widget. Child terms will be collapsed by default"
+msgstr "Відображає ієрархію термів у віджеті фільтрів. Початково дочірні терми згорнуті"
+
+#: src/Admin/FilterFields.php:213
+msgid "Show Hierarchy"
+msgstr "Відображати ієрархію"
+
+#: src/Admin/FilterFields.php:294
+msgid "Show filter selected terms in the list of all chosen items"
+msgstr "Показувати вибрані терми фільтра в Чіпсах"
+
+#: src/Admin/FilterFields.php:209
+msgid "Useful in situations when the filter is rarely applied but takes up some space in the widget. Collapsed by default."
+msgstr "Корисно в ситуаціях, коли фільтр не часто використовується, але займає певне місце у віджеті.<br />За замовчуванням згорнутий."
+
+#: src/Admin/FilterFields.php:208
+msgid "Makes filter collapsible in the widget"
+msgstr "Дозволяє згортати фільтр у віджеті"
+
+#: src/Admin/FilterFields.php:205
+msgid "Folding"
+msgstr "Згортання"
+
+#: src/Admin/FilterFields.php:180
+msgid "In URL"
+msgstr "В URL"
+
+#: src/Admin/FilterFields.php:172
+msgid "The order in which terms appear in the widget"
+msgstr "Порядок, в якому терми будуть розміщені у фільтрі"
+
+#: src/Admin/FilterFields.php:168
+msgid "Sort Terms by"
+msgstr "Сортувати терми за"
+
+#: src/Admin/FilterFields.php:162
+msgid "«OR» means to show posts if they are at least in one of the selected terms. <br />«AND» means that posts should belong to all selected terms at the same time."
+msgstr "«АБО» означає вибирати дописи, якщо вони пов'язані хоча б з одним термом фільтра.<br />«І» означає вибирати лише ті дописи, які належать до всіх обраних термів одночасно."
+
+#: src/Admin/FilterFields.php:160
+msgid "Determines how to select posts when two or more terms of this filter are selected"
+msgstr "Визначає, як саме вибирати дописи, коли обрано два або більше термів одного фільтру"
+
+#: src/Admin/FilterFields.php:158
+msgid "AND"
+msgstr "І"
+
+#: src/Admin/FilterFields.php:158
+msgid "OR"
+msgstr "АБО"
+
+#: src/Admin/FilterFields.php:156
+msgid "Filter Logic"
+msgstr "Логіка фільтра"
+
+#: src/Admin/FilterFields.php:105
+msgid "View in Widget"
+msgstr "Вигляд у віджеті"
+
+#: src/Admin/FilterFields.php:98
+msgid "For example, in the URL path:<br />/?color=blue&size=large<br />\"color\" and \"size\" are the names of the URL vars.<br />In the PRO version of the plugin, the URL part after \"?\" becomes <br />/color-blue/size-large/"
+msgstr "Наприклад для URL<br />/?color=blue&size=large<br />\"color\" та \"size\" це назви змінних URL.<br />В PRO версії плагіну частина URL після \"?\" перетворюється на<br />/color-blue/size-large/"
+
+#: src/Admin/FilterFields.php:96
+msgid "Name of a part of the URL responsible for this filter"
+msgstr "Назва частини URL, яка відповідає за даний фільтр"
+
+#: src/Admin/FilterFields.php:94
+msgid "Var Name for URL"
+msgstr "Назва URL змінної"
+
+#: src/Admin/FilterFields.php:82 src/Admin/FilterSet.php:270
+msgid "Name of the Custom Field. Please, see the Popular Meta keys at the bottom"
+msgstr "Ключ мета поля (meta_key). Див. популярні Мета поля внизу"
+
+#: src/Admin/FilterFields.php:80 src/Admin/FilterSet.php:269
+msgid "Meta Key"
+msgstr "Ключ мета поля"
+
+#: src/Admin/FilterFields.php:75 src/Admin/FilterFields.php:1527
+msgid "A thing by which posts will be filtered"
+msgstr "Критерій за яким фільтрувати дописи"
+
+#: src/Admin/FilterFields.php:71 src/Admin/FilterFields.php:1520
+#: views/admin/filters-set.php:58
+msgid "Filter by"
+msgstr "Фільтр по"
+
+#: src/Admin/FilterFields.php:89 src/Admin/FilterSet.php:263
+#: src/PostTypes.php:51
+msgid "New Filter"
+msgstr "Новий фільтр"
+
+#: src/Admin/AdminHooks.php:247
+msgid "Post type"
+msgstr "Тип допису"
+
+#: src/Admin/AdminHooks.php:199
+msgid "Dismiss this notice."
+msgstr "Закрити це повідомлення."
+
+#: src/Admin/AdminHooks.php:157
+msgid "Error: <strong>%s</strong> filter prefix is not allowed and must be changed on the Filter %s settings <a href=\"%s\" target=\"_blank\">page</a>. Otherwise this site will not work properly."
+msgid_plural "Error: following filter prefixes <strong>%s</strong> are not allowed and must be changed on the Filter %s settings <a href=\"%s\" target=\"_blank\">page</a>. Otherwise this site will not work properly."
+msgstr[0] "Помилка: значення <strong>%s</strong> небажане в якості URL префіксу і краще його змінити на вкладці <strong>%s</strong> <a href=\"%s\" target=\"_blank\">сторінки налаштувань</a>.<br /> Інакше ваш сайт працюватиме з помилками."
+msgstr[1] "Помилка: значення <strong>%s</strong> небажані в якості URL префіксів і краще їх змінити на вкладці <strong>%s</strong> <a href=\"%s\" target=\"_blank\">сторінки налаштувань</a>.<br /> Інакше ваш сайт працюватиме з помилками."
+msgstr[2] "Помилка: значення <strong>%s</strong> небажані в якості URL префіксів і краще їх змінити на вкладці <strong>%s</strong> <a href=\"%s\" target=\"_blank\">сторінки налаштувань</a>.<br /> Інакше ваш сайт працюватиме з помилками."
+
+#: src/Admin/AdminHooks.php:124
+msgid "Add Filters"
+msgstr "Додати фільтри"
+
+#: src/Admin/AdminHooks.php:98
+msgid "Visit website"
+msgstr "Відкрити сайт"
+
+#: src/Admin/AdminHooks.php:97
+msgid "View details"
+msgstr "Переглянути деталі"
+
+#: src/Admin/AdminHooks.php:96
+msgid "Version %s"
+msgstr "Версія %s"
+
+#: src/Admin/AdminHooks.php:95
+msgid "Information"
+msgstr "Інформація"
+
+#: src/Admin/AdminHooks.php:82
+msgid "<a href=\"%s\" target=\"_blank\">Support</a>. Create a technical support request if you are unable to resolve the issue yourself."
+msgstr "<a href=\"%s\" target=\"_blank\">Підтримка</a>. Відправте запит у підтримку, якщо вам не вдається самостійно вирішити проблему."
+
+#: src/Admin/AdminHooks.php:73
+msgid "<a href=\"%s\" target=\"_blank\">Documentation</a>. Common information on how to work with the plugin can be found in our documentation."
+msgstr "<a href=\"%s\" target=\"_blank\">Документація</a>. Загальна інформація про те як працювати з плагіном."
+
+#: src/Admin/AdminHooks.php:68 src/Admin/AdminHooks.php:70
+msgid "Help & Support"
+msgstr "Підтримка"
+
+#: src/Admin/AdminHooks.php:59
+msgid "Filter Everything — WordPress & WooCommerce product filter plugin that allows you to design a flexible filtering system."
+msgstr "Filter Everything — гнучкий плагін фільтрів для WordPress та WooCommerce."
+
+#: src/Admin/AdminHooks.php:56 src/Admin/AdminHooks.php:58
+msgid "Overview"
+msgstr "Огляд"
+
+#: src/Admin/AdminHooks.php:38 src/Admin/AdminHooks.php:131
+#: src/Settings/Tabs/AboutProTab.php:169
+msgid "Get PRO"
+msgstr "Отримати PRO"
+
+#: src/Admin/AdminHooks.php:37 src/Settings/Tabs/AboutProTab.php:180
+msgid "About PRO"
+msgstr "Деталі PRO"
+
+#: src/Admin/Admin.php:114
+msgid "Sorry, you are not allowed to access this page."
+msgstr "Вибачте, ви не маєте права доступу до цієї сторінки."
+
+#: src/Admin/Admin.php:53 src/Admin/AdminHooks.php:125
+#: src/Admin/MetaBoxes.php:30
+msgid "Settings"
+msgstr "Налаштування"
+
+#: src/Admin/Admin.php:49 src/PostTypes.php:48
+msgid "Add New"
+msgstr "Додати новий"
+
+#: src/Admin/Admin.php:48 src/PostTypes.php:19 src/PostTypes.php:21
+msgid "Filter Sets"
+msgstr "Набори фільтрів"
+
+#: src/Admin/Admin.php:46 src/Admin/MetaBoxes.php:21
+#: src/Admin/Widgets/FiltersWidget.php:44 src/PostTypes.php:46
+#: views/frontend/filters-button.php:27
+msgid "Filters"
+msgstr "Фільтри"
+
+#. Author URI of the plugin
+#: filter-everything.php
+msgid "https://filtereverything.pro/about/"
+msgstr "https://filtereverything.pro/about/"
+
+#. Author of the plugin
+#: filter-everything.php
+msgid "Andrii Stepasiuk"
+msgstr "Андрій Степасюк"
+
+#. Description of the plugin
+#: filter-everything.php
+msgid "Filters everything in WordPress & WooCommerce: Products, any Post types, by Any Criteria. Compatible with WPML, ACF and others popular. Supports AJAX."
+msgstr "Фільтрує все у WordPress та WooCommerce: Товари, будь-які Типи дописів і за будь-яким критерієм. Сумісний з WPML, ACF та іншими популярними. Підтримує AJAX."
+
+#. Plugin URI of the plugin
+#: filter-everything.php
+msgid "https://filtereverything.pro"
+msgstr "https://filtereverything.pro"
+
+#. Plugin Name of the plugin
+#: filter-everything.php
+msgid "Filter Everything&nbsp;— WooCommerce Product & WordPress Filter"
+msgstr "Filter Everything&nbsp;— фільтр для товару WooCommerce та WordPress"

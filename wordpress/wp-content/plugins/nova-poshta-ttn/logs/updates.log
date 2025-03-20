@@ -1,0 +1,8 @@
+[2025-03-09 15:27:14] db_update.INFO: Areas were successfully updated, affected 25 rows, deleted 0 rows [] []
+[2025-03-09 15:27:19] db_update.INFO: Cities were successfully updated, affected 10443 rows, deleted 0 rows [] []
+[2025-03-09 15:27:48] db_update.INFO: Warehouses were successfully updated, affected 37971 rows, deleted 0 rows [] []
+[2025-03-09 17:00:10] db_update.INFO: Areas were successfully updated, affected 50 rows, deleted 0 rows [] []
+[2025-03-09 17:00:16] db_update.INFO: Cities were successfully updated, affected 20886 rows, deleted 0 rows [] []
+[2025-03-17 12:49:08] db_update.INFO: Areas were successfully updated, affected 50 rows, deleted 0 rows [] []
+[2025-03-17 12:49:13] db_update.INFO: Cities were successfully updated, affected 20892 rows, deleted 1 rows [] []
+[2025-03-17 12:49:43] db_update.INFO: Warehouses were successfully updated, affected 76043 rows, deleted 48 rows [] []
